@@ -1,0 +1,20 @@
+core = 7.x
+description = Keeping things minimal and funky.
+engine = phptemplate
+name = bx
+
+; Regions =====================================================================
+
+regions[sidebar_second] = Sidebar second
+regions[content] = Content
+
+; Stylesheets =================================================================
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/bx.css
+stylesheets-conditional[IE][all][] = css/ie.css
+
+;scripts[] = js/jquery.scrollTo-1.4.2-min.js
+;scripts[] = js/jquery.easing.1.3.js
+;scripts[] = js/jquery.bxSlider.min.js
+scripts[] = js/bx.js
