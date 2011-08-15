@@ -69,7 +69,10 @@ projects[conditional_styles][version] = 2.0
 
 ; Themes
 ; --------
-
+projects[bx][type] = "theme"
+projects[bx][download][type] = "git"
+projects[bx][download][url] = "git://github.com/wandoledzep/bxtheme.git"
+projects[bx][download][branch] = "master"
   
   
 ; Libraries
